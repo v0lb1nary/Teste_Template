@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#global_box{
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #1df02e;
+}
+
+    header{
+        background-color: rgb(148, 148, 28);
+    }
+        #header_empresarial{
+            background-color: blanchedalmond;
+            text-align: center;
+            padding: 1em;
+        }
+            #logo_Empresarial{}
+            #slogan_empresarial{}
+
+    #camp_nave{}
+        nav{
+        }
+            #camp_nav_01, #camp_nav_02{
+                display: inline;
+                margin-right: 2em;
+                padding: 2em;
+            }
+            #camp_visible_nav_01, #camp_visible_nav_02{
+                position: absolute;
+                z-index: 2;
+                visibility: hidden; 
+            }
+                li{
+                
+                }
+
+

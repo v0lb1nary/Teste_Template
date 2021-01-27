@@ -1,0 +1,93 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <title> {% block title_pag %} {% endblock title_pag %} </title>
+
+</head>
+
+<div id="global_box">
+
+    <body>
+
+        <header>
+            <!-- Cabeçario -->
+
+            <div id="header_empresarial">
+                <!-- Nome e Slogan da Empresa -->
+                <div id="logo_empresarial"> <img src="" alt="Logo_Empresarial"></div>
+                <div id="slogan_empresarial"> Slogan </div>
+            </div>
+
+            <div id="campo_nave">
+                <!-- Linha de Navegação -->
+                <nav>
+                    <div id="camp_nav_01">Nav_01</div>
+                    <div id="camp_visible_nav_01">
+                        <!-- Campo de Navegação -->
+                        <li><a href="">Nome_Link</a></li>
+                        <li><a href="">Nome_Link</a></li>
+                        <li><a href="">Nome_Link</a></li>
+                    </div>
+                    <div id="camp_nav_02">Nav_02</div>
+                    <div id="camp_visible_nav_02">
+                        <!-- Campo de Navegação -->
+                        <li><a href="">Nome_Link</a></li>
+                        <li><a href="">Nome_Link</a></li>
+                        <li><a href="">Nome_Link</a></li>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+
+        <div id="middle_pag">
+
+            <div id="title_conteudo"> {% block title_conteudo %} {% endblock title_conteudo %} </div>
+
+            <div id="conteudo"><!-- Conteúdo da pagina -->
+
+                <article>
+                    {% block article_middle %} {% endblock article_middle %}
+                </article>
+
+            </div>
+
+            <aside>
+                <div id="conteudo_aside"> {% block aside %} {% endblock aside %} </div> <!-- Conteudo aside -->
+            </aside>
+
+        </div>
+
+        <footer>
+
+            <div id="redes_sociais">
+                <img src="" alt="Logo Instagram"> <!-- Instagram -->
+                <img src="" alt="Logo Facebook"> <!-- Facebook -->
+                <img src="" alt="Logo WhatsApp"> <!-- Zap -->
+            </div>
+
+            <div id="footer_empresarial">
+                <!-- Nome e Slogan da Empresa -->
+                <div id=""> <img src="" alt="Logo_Empresarial"></div>
+                <div id=""> Slogan </div>
+            </div>
+
+            <div id="direito_register">
+                <!-- Registro autorial da pagina -->
+                <div>direito_register</div> <!-- p -->
+            </div>
+
+        </footer>
+
+    </body>
+
+</div>
+
+</html>
