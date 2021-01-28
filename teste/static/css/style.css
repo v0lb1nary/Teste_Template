@@ -29,9 +29,9 @@
                 padding: 2em;
             }
             #camp_visible_nav_01, #camp_visible_nav_02{
-                position: absolute;
+                /* position: absolute; */
                 z-index: 2;
-                visibility: hidden; 
+                /* visibility: hidden;  */
             }
                 li{
                 
